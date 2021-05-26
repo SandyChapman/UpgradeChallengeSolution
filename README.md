@@ -8,10 +8,10 @@ Install for usage using `pip`:
 pip install .
 ```
 
-If you wish to continue development, you can use the `-e` flag to indicate editable installation:
+If you wish to continue development, you can use the requirements.txt which will include `-e` flag to indicate editable installation:
 
 ```bash
-pip install -e .
+pip install -r ./requirements.txt
 ```
 
 ## Usage
