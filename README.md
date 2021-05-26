@@ -47,3 +47,11 @@ python -m stale_prs -a '6 hours' -l bug -r SandyChapman/upgrade_challenge SandyC
 # Write open PRs to a file named output.json on the SandyChapman/upgrade_challenge and SandyChapman/upgrade_challenge_2 repos:
 python -m stale_prs -o 'output.json' -r SandyChapman/upgrade_challenge SandyChapman/upgrade_challenge_2
 ```
+
+## Testing
+
+In order to test, install the package (likely in editable mode) and run via pytest:
+
+```bash
+pytest ./test
+```
